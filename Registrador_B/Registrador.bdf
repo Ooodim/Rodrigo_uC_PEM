@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect -136 128 32 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Dados[7..0]" (rect 5 0 63 12)(font "Arial" ))
+	(text "Dados[7..0]" (rect 5 0 62 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -665,41 +665,6 @@ applicable agreement for further details.
 	(pt 288 256)
 )
 (connector
-	(text "Dado[0]" (rect 176 152 214 164)(font "Arial" ))
-	(pt 200 168)
-	(pt 176 168)
-)
-(connector
-	(text "Dado[1]" (rect 280 152 318 164)(font "Arial" ))
-	(pt 304 168)
-	(pt 280 168)
-)
-(connector
-	(text "Dado[2]" (rect 384 152 422 164)(font "Arial" ))
-	(pt 408 168)
-	(pt 384 168)
-)
-(connector
-	(text "Dado[4]" (rect 592 152 630 164)(font "Arial" ))
-	(pt 616 168)
-	(pt 592 168)
-)
-(connector
-	(text "Dado[5]" (rect 696 152 734 164)(font "Arial" ))
-	(pt 720 168)
-	(pt 696 168)
-)
-(connector
-	(text "Dado[6]" (rect 800 152 838 164)(font "Arial" ))
-	(pt 824 168)
-	(pt 800 168)
-)
-(connector
-	(text "Dado[7]" (rect 904 152 942 164)(font "Arial" ))
-	(pt 928 168)
-	(pt 904 168)
-)
-(connector
 	(pt 264 168)
 	(pt 272 168)
 )
@@ -708,73 +673,108 @@ applicable agreement for further details.
 	(pt 376 168)
 )
 (connector
-	(text "S[1]" (rect 360 141 372 161)(font "Arial" )(vertical))
-	(pt 376 168)
-	(pt 376 112)
-)
-(connector
-	(text "S[0]" (rect 256 141 268 161)(font "Arial" )(vertical))
-	(pt 272 168)
-	(pt 272 112)
-)
-(connector
 	(pt 472 168)
 	(pt 480 168)
-)
-(connector
-	(text "S[2]" (rect 464 141 476 161)(font "Arial" )(vertical))
-	(pt 480 168)
-	(pt 480 112)
 )
 (connector
 	(pt 576 168)
 	(pt 584 168)
 )
 (connector
-	(text "S[3]" (rect 568 141 580 161)(font "Arial" )(vertical))
-	(pt 584 168)
-	(pt 584 112)
-)
-(connector
 	(pt 680 168)
 	(pt 688 168)
-)
-(connector
-	(text "S[4]" (rect 672 141 684 161)(font "Arial" )(vertical))
-	(pt 688 168)
-	(pt 688 112)
 )
 (connector
 	(pt 784 168)
 	(pt 792 168)
 )
 (connector
-	(text "S[5]" (rect 776 141 788 161)(font "Arial" )(vertical))
-	(pt 792 168)
-	(pt 792 112)
-)
-(connector
 	(pt 888 168)
 	(pt 896 168)
-)
-(connector
-	(text "S[6]" (rect 880 141 892 161)(font "Arial" )(vertical))
-	(pt 896 168)
-	(pt 896 112)
 )
 (connector
 	(pt 992 168)
 	(pt 1000 168)
 )
 (connector
-	(text "S[7]" (rect 984 141 996 161)(font "Arial" )(vertical))
-	(pt 1000 168)
-	(pt 1000 112)
+	(text "Dado[7]" (rect 176 152 214 164)(font "Arial" ))
+	(pt 200 168)
+	(pt 176 168)
 )
 (connector
-	(text "Dado[3]" (rect 488 152 526 164)(font "Arial" ))
+	(text "Dado[6]" (rect 280 152 318 164)(font "Arial" ))
+	(pt 304 168)
+	(pt 280 168)
+)
+(connector
+	(text "Dado[5]" (rect 384 152 422 164)(font "Arial" ))
+	(pt 408 168)
+	(pt 384 168)
+)
+(connector
+	(text "Dado[4]" (rect 488 152 526 164)(font "Arial" ))
 	(pt 512 168)
 	(pt 488 168)
+)
+(connector
+	(text "Dado[3]" (rect 592 152 630 164)(font "Arial" ))
+	(pt 616 168)
+	(pt 592 168)
+)
+(connector
+	(text "Dado[2]" (rect 696 152 734 164)(font "Arial" ))
+	(pt 720 168)
+	(pt 696 168)
+)
+(connector
+	(text "Dado[1]" (rect 800 152 838 164)(font "Arial" ))
+	(pt 824 168)
+	(pt 800 168)
+)
+(connector
+	(text "Dado[0]" (rect 904 152 942 164)(font "Arial" ))
+	(pt 928 168)
+	(pt 904 168)
+)
+(connector
+	(text "S[7]" (rect 256 141 268 161)(font "Arial" )(vertical))
+	(pt 272 168)
+	(pt 272 112)
+)
+(connector
+	(text "S[6]" (rect 360 141 372 161)(font "Arial" )(vertical))
+	(pt 376 168)
+	(pt 376 112)
+)
+(connector
+	(text "S[5]" (rect 464 141 476 161)(font "Arial" )(vertical))
+	(pt 480 168)
+	(pt 480 112)
+)
+(connector
+	(text "S[4]" (rect 568 141 580 161)(font "Arial" )(vertical))
+	(pt 584 168)
+	(pt 584 112)
+)
+(connector
+	(text "S[3]" (rect 672 141 684 161)(font "Arial" )(vertical))
+	(pt 688 168)
+	(pt 688 112)
+)
+(connector
+	(text "S[2]" (rect 776 141 788 161)(font "Arial" )(vertical))
+	(pt 792 168)
+	(pt 792 112)
+)
+(connector
+	(text "S[1]" (rect 880 141 892 161)(font "Arial" )(vertical))
+	(pt 896 168)
+	(pt 896 112)
+)
+(connector
+	(text "S[0]" (rect 984 141 996 161)(font "Arial" )(vertical))
+	(pt 1000 168)
+	(pt 1000 112)
 )
 (junction (pt 808 256))
 (junction (pt 704 256))

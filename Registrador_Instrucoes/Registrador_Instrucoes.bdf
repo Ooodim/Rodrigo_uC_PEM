@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect -8 200 160 216)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Dados[7..0]" (rect 5 0 63 12)(font "Arial" ))
+	(text "Dados[7..0]" (rect 5 0 62 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect -8 288 160 304)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLRN" (rect 5 0 36 12)(font "Arial" ))
+	(text "CLRN" (rect 5 0 35 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect -8 320 160 336)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLK" (rect 5 0 27 12)(font "Arial" ))
+	(text "CLK" (rect 5 0 26 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect -8 352 160 368)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "LIN" (rect 5 0 23 12)(font "Arial" ))
+	(text "LIN" (rect 5 0 22 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect -8 256 160 272)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "EIN" (rect 5 0 24 12)(font "Arial" ))
+	(text "EIN" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -101,7 +101,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect -8 104 168 120)
+	(rect 48 104 224 120)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "S[7..0]" (rect 90 0 123 12)(font "Arial" ))
 	(pt 0 8)
@@ -117,7 +117,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect -8 144 168 160)
+	(rect 48 144 224 160)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "SW[7..0]" (rect 90 0 133 12)(font "Arial" ))
 	(pt 0 8)
@@ -1370,6 +1370,18 @@ applicable agreement for further details.
 	(text "Dado[7..0]" (rect 170 192 221 204)(font "Arial" ))
 	(pt 160 208)
 	(pt 224 208)
+	(bus)
+)
+(connector
+	(text "S[7..0]" (rect -6 96 27 108)(font "Arial" ))
+	(pt 48 112)
+	(pt -8 112)
+	(bus)
+)
+(connector
+	(text "SW[7..0]" (rect -6 136 37 148)(font "Arial" ))
+	(pt 48 152)
+	(pt -8 152)
 	(bus)
 )
 (junction (pt 544 296))

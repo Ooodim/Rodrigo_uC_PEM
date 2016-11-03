@@ -1498,22 +1498,12 @@ applicable agreement for further details.
 	(pt 168 400)
 )
 (connector
-	(text "SB[0]" (rect 152 367 164 394)(font "Arial" )(vertical))
-	(pt 168 400)
-	(pt 168 360)
-)
-(connector
 	(pt 56 416)
 	(pt 56 400)
 )
 (connector
 	(pt 56 400)
 	(pt 40 400)
-)
-(connector
-	(text "SM[0]" (rect 24 366 36 394)(font "Arial" )(vertical))
-	(pt 40 400)
-	(pt 40 360)
 )
 (connector
 	(pt 72 344)
@@ -1944,22 +1934,12 @@ applicable agreement for further details.
 	(pt 200 400)
 )
 (connector
-	(text "SM[1]" (rect 184 366 196 394)(font "Arial" )(vertical))
-	(pt 200 400)
-	(pt 200 360)
-)
-(connector
 	(pt 312 416)
 	(pt 312 400)
 )
 (connector
 	(pt 312 400)
 	(pt 328 400)
-)
-(connector
-	(text "SB[1]" (rect 312 367 324 394)(font "Arial" )(vertical))
-	(pt 328 400)
-	(pt 328 360)
 )
 (connector
 	(pt 376 416)
@@ -1970,22 +1950,12 @@ applicable agreement for further details.
 	(pt 360 400)
 )
 (connector
-	(text "SM[2]" (rect 344 366 356 394)(font "Arial" )(vertical))
-	(pt 360 400)
-	(pt 360 360)
-)
-(connector
 	(pt 472 416)
 	(pt 472 400)
 )
 (connector
 	(pt 472 400)
 	(pt 488 400)
-)
-(connector
-	(text "SB[2]" (rect 472 367 484 394)(font "Arial" )(vertical))
-	(pt 488 400)
-	(pt 488 360)
 )
 (connector
 	(pt 536 416)
@@ -1996,22 +1966,12 @@ applicable agreement for further details.
 	(pt 520 400)
 )
 (connector
-	(text "SM[3]" (rect 504 366 516 394)(font "Arial" )(vertical))
-	(pt 520 400)
-	(pt 520 360)
-)
-(connector
 	(pt 632 416)
 	(pt 632 400)
 )
 (connector
 	(pt 632 400)
 	(pt 648 400)
-)
-(connector
-	(text "SB[3]" (rect 632 367 644 394)(font "Arial" )(vertical))
-	(pt 648 400)
-	(pt 648 360)
 )
 (connector
 	(pt 696 416)
@@ -2022,22 +1982,12 @@ applicable agreement for further details.
 	(pt 680 400)
 )
 (connector
-	(text "SM[4]" (rect 664 366 676 394)(font "Arial" )(vertical))
-	(pt 680 400)
-	(pt 680 360)
-)
-(connector
 	(pt 792 416)
 	(pt 792 400)
 )
 (connector
 	(pt 792 400)
 	(pt 808 400)
-)
-(connector
-	(text "SB[4]" (rect 792 367 804 394)(font "Arial" )(vertical))
-	(pt 808 400)
-	(pt 808 360)
 )
 (connector
 	(pt 856 416)
@@ -2048,22 +1998,12 @@ applicable agreement for further details.
 	(pt 840 400)
 )
 (connector
-	(text "SM[5]" (rect 824 366 836 394)(font "Arial" )(vertical))
-	(pt 840 400)
-	(pt 840 360)
-)
-(connector
 	(pt 952 416)
 	(pt 952 400)
 )
 (connector
 	(pt 952 400)
 	(pt 968 400)
-)
-(connector
-	(text "SB[5]" (rect 952 367 964 394)(font "Arial" )(vertical))
-	(pt 968 400)
-	(pt 968 360)
 )
 (connector
 	(pt 1016 416)
@@ -2074,22 +2014,12 @@ applicable agreement for further details.
 	(pt 1000 400)
 )
 (connector
-	(text "SM[6]" (rect 984 366 996 394)(font "Arial" )(vertical))
-	(pt 1000 400)
-	(pt 1000 360)
-)
-(connector
 	(pt 1112 416)
 	(pt 1112 400)
 )
 (connector
 	(pt 1112 400)
 	(pt 1128 400)
-)
-(connector
-	(text "SB[6]" (rect 1112 367 1124 394)(font "Arial" )(vertical))
-	(pt 1128 400)
-	(pt 1128 360)
 )
 (connector
 	(pt 1176 416)
@@ -2100,22 +2030,12 @@ applicable agreement for further details.
 	(pt 1160 400)
 )
 (connector
-	(text "SM[7]" (rect 1144 366 1156 394)(font "Arial" )(vertical))
-	(pt 1160 400)
-	(pt 1160 360)
-)
-(connector
 	(pt 1272 416)
 	(pt 1272 400)
 )
 (connector
 	(pt 1272 400)
 	(pt 1288 400)
-)
-(connector
-	(text "SB[7]" (rect 1272 367 1284 394)(font "Arial" )(vertical))
-	(pt 1288 400)
-	(pt 1288 360)
 )
 (connector
 	(pt 184 280)
@@ -2214,44 +2134,130 @@ applicable agreement for further details.
 	(pt 824 280)
 )
 (connector
-	(text "S[0]" (rect 88 645 100 665)(font "Arial" )(vertical))
-	(pt 104 624)
-	(pt 104 672)
+	(text "SM[7]" (rect 24 366 36 394)(font "Arial" )(vertical))
+	(pt 40 400)
+	(pt 40 360)
 )
 (connector
-	(text "S[1]" (rect 248 645 260 665)(font "Arial" )(vertical))
-	(pt 264 624)
-	(pt 264 672)
+	(text "SB[7]" (rect 153 366 165 393)(font "Arial" )(vertical))
+	(pt 168 400)
+	(pt 168 360)
 )
 (connector
-	(text "S[2]" (rect 408 645 420 665)(font "Arial" )(vertical))
-	(pt 424 624)
-	(pt 424 672)
+	(text "SM[6]" (rect 184 366 196 394)(font "Arial" )(vertical))
+	(pt 200 400)
+	(pt 200 360)
 )
 (connector
-	(text "S[3]" (rect 568 645 580 665)(font "Arial" )(vertical))
-	(pt 584 624)
-	(pt 584 672)
+	(text "SB[6]" (rect 313 366 325 393)(font "Arial" )(vertical))
+	(pt 328 400)
+	(pt 328 360)
 )
 (connector
-	(text "S[4]" (rect 728 645 740 665)(font "Arial" )(vertical))
-	(pt 744 624)
-	(pt 744 672)
+	(text "SM[5]" (rect 344 366 356 394)(font "Arial" )(vertical))
+	(pt 360 400)
+	(pt 360 360)
 )
 (connector
-	(text "S[5]" (rect 888 645 900 665)(font "Arial" )(vertical))
-	(pt 904 624)
-	(pt 904 672)
+	(text "SB[5]" (rect 471 366 483 393)(font "Arial" )(vertical))
+	(pt 488 400)
+	(pt 488 360)
 )
 (connector
-	(text "S[6]" (rect 1048 645 1060 665)(font "Arial" )(vertical))
+	(text "SM[4]" (rect 504 366 516 394)(font "Arial" )(vertical))
+	(pt 520 400)
+	(pt 520 360)
+)
+(connector
+	(text "SB[4]" (rect 631 366 643 393)(font "Arial" )(vertical))
+	(pt 648 400)
+	(pt 648 360)
+)
+(connector
+	(text "SM[3]" (rect 664 366 676 394)(font "Arial" )(vertical))
+	(pt 680 400)
+	(pt 680 360)
+)
+(connector
+	(text "SB[3]" (rect 791 366 803 393)(font "Arial" )(vertical))
+	(pt 808 400)
+	(pt 808 360)
+)
+(connector
+	(text "SM[2]" (rect 824 366 836 394)(font "Arial" )(vertical))
+	(pt 840 400)
+	(pt 840 360)
+)
+(connector
+	(text "SB[2]" (rect 951 366 963 393)(font "Arial" )(vertical))
+	(pt 968 400)
+	(pt 968 360)
+)
+(connector
+	(text "SM[1]" (rect 984 366 996 394)(font "Arial" )(vertical))
+	(pt 1000 400)
+	(pt 1000 360)
+)
+(connector
+	(text "SB[1]" (rect 1111 366 1123 393)(font "Arial" )(vertical))
+	(pt 1128 400)
+	(pt 1128 360)
+)
+(connector
+	(text "SM[0]" (rect 1144 366 1156 394)(font "Arial" )(vertical))
+	(pt 1160 400)
+	(pt 1160 360)
+)
+(connector
+	(text "SB[0]" (rect 1271 366 1283 393)(font "Arial" )(vertical))
+	(pt 1288 400)
+	(pt 1288 360)
+)
+(connector
+	(text "S[0]" (rect 1208 645 1220 665)(font "Arial" )(vertical))
+	(pt 1224 624)
+	(pt 1224 672)
+)
+(connector
+	(text "S[1]" (rect 1048 645 1060 665)(font "Arial" )(vertical))
 	(pt 1064 624)
 	(pt 1064 672)
 )
 (connector
-	(text "S[7]" (rect 1208 645 1220 665)(font "Arial" )(vertical))
-	(pt 1224 624)
-	(pt 1224 672)
+	(text "S[2]" (rect 888 645 900 665)(font "Arial" )(vertical))
+	(pt 904 624)
+	(pt 904 672)
+)
+(connector
+	(text "S[3]" (rect 728 645 740 665)(font "Arial" )(vertical))
+	(pt 744 624)
+	(pt 744 672)
+)
+(connector
+	(text "S[4]" (rect 568 645 580 665)(font "Arial" )(vertical))
+	(pt 584 624)
+	(pt 584 672)
+)
+(connector
+	(text "S[5]" (rect 408 645 420 665)(font "Arial" )(vertical))
+	(pt 424 624)
+	(pt 424 672)
+)
+(connector
+	(text "S[6]" (rect 248 645 260 665)(font "Arial" )(vertical))
+	(pt 264 624)
+	(pt 264 672)
+)
+(connector
+	(text "S[7]" (rect 88 645 100 665)(font "Arial" )(vertical))
+	(pt 104 624)
+	(pt 104 672)
+)
+(connector
+	(text "S[7..0]" (rect 642 152 675 164)(font "Arial" ))
+	(pt 688 168)
+	(pt 632 168)
+	(bus)
 )
 (junction (pt 232 64))
 (junction (pt 256 184))

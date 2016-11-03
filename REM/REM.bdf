@@ -356,46 +356,16 @@ applicable agreement for further details.
 	(pt 568 184)
 )
 (connector
-	(text "Dado[3]" (rect 560 152 598 164)(font "Arial" ))
-	(pt 600 168)
-	(pt 568 168)
-)
-(connector
-	(text "Dado[1]" (rect 306 152 344 164)(font "Arial" ))
-	(pt 344 168)
-	(pt 312 168)
-)
-(connector
-	(text "Dado[2]" (rect 434 152 472 164)(font "Arial" ))
-	(pt 472 168)
-	(pt 440 168)
-)
-(connector
 	(pt 408 168)
 	(pt 424 168)
-)
-(connector
-	(text "S[1]" (rect 408 141 420 161)(font "Arial" )(vertical))
-	(pt 424 168)
-	(pt 424 120)
 )
 (connector
 	(pt 536 168)
 	(pt 552 168)
 )
 (connector
-	(text "S[2]" (rect 536 141 548 161)(font "Arial" )(vertical))
-	(pt 552 168)
-	(pt 552 120)
-)
-(connector
 	(pt 664 168)
 	(pt 680 168)
-)
-(connector
-	(text "S[3]" (rect 664 141 676 161)(font "Arial" )(vertical))
-	(pt 680 168)
-	(pt 680 120)
 )
 (connector
 	(text "S[3..0]" (rect 466 72 499 84)(font "Arial" ))
@@ -454,16 +424,6 @@ applicable agreement for further details.
 	(pt 280 168)
 )
 (connector
-	(text "S[0]" (rect 272 141 284 161)(font "Arial" )(vertical))
-	(pt 288 120)
-	(pt 288 168)
-)
-(connector
-	(text "Dado[0]" (rect 178 152 216 164)(font "Arial" ))
-	(pt 184 168)
-	(pt 216 168)
-)
-(connector
 	(pt 216 184)
 	(pt 184 184)
 )
@@ -478,6 +438,46 @@ applicable agreement for further details.
 (connector
 	(pt 184 304)
 	(pt 312 304)
+)
+(connector
+	(text "Dado[3]" (rect 178 152 216 164)(font "Arial" ))
+	(pt 184 168)
+	(pt 216 168)
+)
+(connector
+	(text "Dado[2]" (rect 306 152 344 164)(font "Arial" ))
+	(pt 344 168)
+	(pt 312 168)
+)
+(connector
+	(text "Dado[1]" (rect 434 152 472 164)(font "Arial" ))
+	(pt 472 168)
+	(pt 440 168)
+)
+(connector
+	(text "Dado[0]" (rect 560 152 598 164)(font "Arial" ))
+	(pt 600 168)
+	(pt 568 168)
+)
+(connector
+	(text "S[3]" (rect 272 141 284 161)(font "Arial" )(vertical))
+	(pt 288 120)
+	(pt 288 168)
+)
+(connector
+	(text "S[2]" (rect 408 141 420 161)(font "Arial" )(vertical))
+	(pt 424 168)
+	(pt 424 120)
+)
+(connector
+	(text "S[1]" (rect 536 141 548 161)(font "Arial" )(vertical))
+	(pt 552 168)
+	(pt 552 120)
+)
+(connector
+	(text "S[0]" (rect 664 141 676 161)(font "Arial" )(vertical))
+	(pt 680 168)
+	(pt 680 120)
 )
 (junction (pt 312 304))
 (junction (pt 440 304))
