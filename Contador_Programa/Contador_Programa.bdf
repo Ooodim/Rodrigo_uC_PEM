@@ -1267,8 +1267,8 @@ applicable agreement for further details.
 )
 (connector
 	(text "S[7..0]" (rect -54 0 -21 12)(font "Arial" ))
-	(pt 16 16)
 	(pt -56 16)
+	(pt 16 16)
 	(bus)
 )
 (junction (pt 120 160))
