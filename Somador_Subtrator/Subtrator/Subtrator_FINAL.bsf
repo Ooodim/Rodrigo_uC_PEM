@@ -26,16 +26,16 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "XSUB" (rect 0 0 33 14)(font "Arial" (font_size 8)))
-		(text "XSUB" (rect 21 27 54 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "X[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "X[7..0]" (rect 21 27 57 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "YSUB" (rect 0 0 34 14)(font "Arial" (font_size 8)))
-		(text "YSUB" (rect 21 43 55 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
+		(text "Y[7..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "Y[7..0]" (rect 21 43 58 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
 		(pt 128 32)

@@ -18,12 +18,12 @@
 #
 # Quartus II 32-bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-# Date created = 00:48:53  October 31, 2016
+# Date created = 21:48:53  November 03, 2016
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "13.0"
-DATE = "00:48:53  October 31, 2016"
+DATE = "21:48:53  November 03, 2016"
 
 # Revisions
 
