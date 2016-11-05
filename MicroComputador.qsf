@@ -1,0 +1,108 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 23:49:29  November 04, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		MicroComputador_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22A7
+set_global_assignment -name TOP_LEVEL_ENTITY MicroComputador
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:49:29  NOVEMBER 04, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 125
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SOURCE_FILE ROM/MicroComputador.tis_db_list.ddb
+set_global_assignment -name SOURCE_FILE ROM/MicroComputador.pti_db_list.ddb
+set_global_assignment -name BSF_FILE ROM/Memoria_ROM.bsf
+set_global_assignment -name VERILOG_FILE ROM/MemoriaROM_syn.v
+set_global_assignment -name VERILOG_FILE ROM/MemoriaROM_inst.v
+set_global_assignment -name VERILOG_FILE ROM/MemoriaROM_bb.v
+set_global_assignment -name VERILOG_FILE ROM/MemoriaROM.v
+set_global_assignment -name QIP_FILE ROM/MemoriaROM.qip
+set_global_assignment -name SOURCE_FILE ROM/Memoria_ROM.tis_db_list.ddb
+set_global_assignment -name SOURCE_FILE ROM/Memoria_ROM.qws
+set_global_assignment -name SOURCE_FILE ROM/Memoria_ROM.qsf
+set_global_assignment -name SOURCE_FILE ROM/Memoria_ROM.pti_db_list.ddb
+set_global_assignment -name BSF_FILE Somador_Subtrator/Somador_Subtrator.bsf
+set_global_assignment -name BDF_FILE Somador_Subtrator/Somador_Subtrator.bdf
+set_global_assignment -name BSF_FILE Somador_Subtrator/Subtrator/Subtrator_FINAL.bsf
+set_global_assignment -name BDF_FILE Somador_Subtrator/Subtrator/Subtrator_FINAL.bdf
+set_global_assignment -name BSF_FILE Somador_Subtrator/Subtrator/Subtrator_Completo.bsf
+set_global_assignment -name BDF_FILE Somador_Subtrator/Subtrator/Subtrator_Completo.bdf
+set_global_assignment -name BSF_FILE Somador_Subtrator/Subtrator/Meio_Subtrator.bsf
+set_global_assignment -name BDF_FILE Somador_Subtrator/Subtrator/Meio_Subtrator.bdf
+set_global_assignment -name BSF_FILE Somador_Subtrator/Somador/Somador_FINAL.bsf
+set_global_assignment -name BDF_FILE Somador_Subtrator/Somador/Somador_FINAL.bdf
+set_global_assignment -name BSF_FILE Somador_Subtrator/Somador/Somador_Completo.bsf
+set_global_assignment -name BDF_FILE Somador_Subtrator/Somador/Somador_Completo.bdf
+set_global_assignment -name BSF_FILE Somador_Subtrator/Somador/Meio_Somador.bsf
+set_global_assignment -name BDF_FILE Somador_Subtrator/Somador/Meio_Somador.bdf
+set_global_assignment -name HEX_FILE ROM/uP_Programa.hex
+set_global_assignment -name BSF_FILE ROM/MemoriaROM.bsf
+set_global_assignment -name BDF_FILE ROM/Memoria_ROM.bdf
+set_global_assignment -name BSF_FILE REM/REM.bsf
+set_global_assignment -name BDF_FILE REM/REM.bdf
+set_global_assignment -name BSF_FILE Registrador_Saida/Registrador_Saida.bsf
+set_global_assignment -name BDF_FILE Registrador_Saida/Registrador_Saida.bdf
+set_global_assignment -name BSF_FILE Registrador_Instrucoes/Registrador_Instrucoes.bsf
+set_global_assignment -name BDF_FILE Registrador_Instrucoes/Registrador_Instrucoes.bdf
+set_global_assignment -name BSF_FILE Registrador_B/Registrador.bsf
+set_global_assignment -name BDF_FILE Registrador_B/Registrador.bdf
+set_global_assignment -name BSF_FILE Controlador/Controlador.bsf
+set_global_assignment -name BDF_FILE Controlador/Controlador.bdf
+set_global_assignment -name BSF_FILE Controlador/Execution/Multiplexador_Específico/Multiplexador.bsf
+set_global_assignment -name BDF_FILE Controlador/Execution/Multiplexador_Específico/Multiplexador.bdf
+set_global_assignment -name BSF_FILE Controlador/Mux_Ciclo/Mux_Ciclo.bsf
+set_global_assignment -name BDF_FILE Controlador/Mux_Ciclo/Mux_Ciclo.bdf
+set_global_assignment -name BSF_FILE Controlador/Fetch/Fetch.bsf
+set_global_assignment -name BDF_FILE Controlador/Fetch/Fetch.bdf
+set_global_assignment -name BSF_FILE Controlador/Execution/Execution.bsf
+set_global_assignment -name BDF_FILE Controlador/Execution/Execution.bdf
+set_global_assignment -name BSF_FILE Controlador/Contador_Anel/Contador_Anel.bsf
+set_global_assignment -name BDF_FILE Controlador/Contador_Anel/Contador_Anel.bdf
+set_global_assignment -name BSF_FILE Contador_Programa/Contador_Programa.bsf
+set_global_assignment -name BDF_FILE Contador_Programa/Contador_Programa.bdf
+set_global_assignment -name BSF_FILE Acumulador_A/Acumulador.bsf
+set_global_assignment -name BDF_FILE Acumulador_A/Acumulador.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
