@@ -33,7 +33,7 @@
 //applicable agreement for further details.
 
 
-//altsyncram ADDRESS_ACLR_A="NONE" CLOCK_ENABLE_INPUT_A="BYPASS" CLOCK_ENABLE_OUTPUT_A="BYPASS" DEVICE_FAMILY="Cyclone IV E" ENABLE_RUNTIME_MOD="NO" INIT_FILE="uP_Programa.hex" NUMWORDS_A=16 OPERATION_MODE="ROM" OUTDATA_ACLR_A="NONE" OUTDATA_REG_A="UNREGISTERED" WIDTH_A=8 WIDTH_BYTEENA_A=1 WIDTHAD_A=4 address_a clock0 q_a
+//altsyncram ADDRESS_ACLR_A="NONE" CLOCK_ENABLE_INPUT_A="BYPASS" CLOCK_ENABLE_OUTPUT_A="BYPASS" DEVICE_FAMILY="Cyclone IV E" ENABLE_RUNTIME_MOD="NO" INIT_FILE="Dados.hex" NUMWORDS_A=16 OPERATION_MODE="ROM" OUTDATA_ACLR_A="NONE" OUTDATA_REG_A="UNREGISTERED" WIDTH_A=8 WIDTH_BYTEENA_A=1 WIDTHAD_A=4 address_a clock0 q_a
 //VERSION_BEGIN 13.0 cbx_altsyncram 2013:06:12:18:03:40:SJ cbx_cycloneii 2013:06:12:18:03:40:SJ cbx_lpm_add_sub 2013:06:12:18:03:40:SJ cbx_lpm_compare 2013:06:12:18:03:40:SJ cbx_lpm_decode 2013:06:12:18:03:40:SJ cbx_lpm_mux 2013:06:12:18:03:40:SJ cbx_mgl 2013:06:12:18:04:42:SJ cbx_stratix 2013:06:12:18:03:40:SJ cbx_stratixii 2013:06:12:18:03:40:SJ cbx_stratixiii 2013:06:12:18:03:40:SJ cbx_stratixv 2013:06:12:18:03:40:SJ cbx_util_mgl 2013:06:12:18:03:40:SJ  VERSION_END
 // synthesis VERILOG_INPUT_VERSION VERILOG_2001
 // altera message_off 10463
@@ -111,10 +111,10 @@ module  MemoriaROM_altsyncram
 		ram_block1a_0.clk0_core_clock_enable = "none",
 		ram_block1a_0.clk0_input_clock_enable = "none",
 		ram_block1a_0.connectivity_checking = "OFF",
-		ram_block1a_0.init_file = "uP_Programa.hex",
+		ram_block1a_0.init_file = "Dados.hex",
 		ram_block1a_0.init_file_layout = "port_a",
 		ram_block1a_0.logical_ram_name = "ALTSYNCRAM",
-		ram_block1a_0.mem_init0 = 16'h0005,
+		ram_block1a_0.mem_init0 = 16'h000F,
 		ram_block1a_0.operation_mode = "rom",
 		ram_block1a_0.port_a_address_clear = "none",
 		ram_block1a_0.port_a_address_width = 4,
@@ -169,10 +169,10 @@ module  MemoriaROM_altsyncram
 		ram_block1a_1.clk0_core_clock_enable = "none",
 		ram_block1a_1.clk0_input_clock_enable = "none",
 		ram_block1a_1.connectivity_checking = "OFF",
-		ram_block1a_1.init_file = "uP_Programa.hex",
+		ram_block1a_1.init_file = "Dados.hex",
 		ram_block1a_1.init_file_layout = "port_a",
 		ram_block1a_1.logical_ram_name = "ALTSYNCRAM",
-		ram_block1a_1.mem_init0 = 16'h0006,
+		ram_block1a_1.mem_init0 = 16'h0009,
 		ram_block1a_1.operation_mode = "rom",
 		ram_block1a_1.port_a_address_clear = "none",
 		ram_block1a_1.port_a_address_width = 4,
@@ -227,10 +227,10 @@ module  MemoriaROM_altsyncram
 		ram_block1a_2.clk0_core_clock_enable = "none",
 		ram_block1a_2.clk0_input_clock_enable = "none",
 		ram_block1a_2.connectivity_checking = "OFF",
-		ram_block1a_2.init_file = "uP_Programa.hex",
+		ram_block1a_2.init_file = "Dados.hex",
 		ram_block1a_2.init_file_layout = "port_a",
 		ram_block1a_2.logical_ram_name = "ALTSYNCRAM",
-		ram_block1a_2.mem_init0 = 16'h0208,
+		ram_block1a_2.mem_init0 = 16'h000E,
 		ram_block1a_2.operation_mode = "rom",
 		ram_block1a_2.port_a_address_clear = "none",
 		ram_block1a_2.port_a_address_width = 4,
@@ -285,10 +285,10 @@ module  MemoriaROM_altsyncram
 		ram_block1a_3.clk0_core_clock_enable = "none",
 		ram_block1a_3.clk0_input_clock_enable = "none",
 		ram_block1a_3.connectivity_checking = "OFF",
-		ram_block1a_3.init_file = "uP_Programa.hex",
+		ram_block1a_3.init_file = "Dados.hex",
 		ram_block1a_3.init_file_layout = "port_a",
 		ram_block1a_3.logical_ram_name = "ALTSYNCRAM",
-		ram_block1a_3.mem_init0 = 16'h080F,
+		ram_block1a_3.mem_init0 = 16'h0009,
 		ram_block1a_3.operation_mode = "rom",
 		ram_block1a_3.port_a_address_clear = "none",
 		ram_block1a_3.port_a_address_width = 4,
@@ -343,10 +343,10 @@ module  MemoriaROM_altsyncram
 		ram_block1a_4.clk0_core_clock_enable = "none",
 		ram_block1a_4.clk0_input_clock_enable = "none",
 		ram_block1a_4.connectivity_checking = "OFF",
-		ram_block1a_4.init_file = "uP_Programa.hex",
+		ram_block1a_4.init_file = "Dados.hex",
 		ram_block1a_4.init_file_layout = "port_a",
 		ram_block1a_4.logical_ram_name = "ALTSYNCRAM",
-		ram_block1a_4.mem_init0 = 16'h0E24,
+		ram_block1a_4.mem_init0 = 16'h000C,
 		ram_block1a_4.operation_mode = "rom",
 		ram_block1a_4.port_a_address_clear = "none",
 		ram_block1a_4.port_a_address_width = 4,
@@ -401,10 +401,10 @@ module  MemoriaROM_altsyncram
 		ram_block1a_5.clk0_core_clock_enable = "none",
 		ram_block1a_5.clk0_input_clock_enable = "none",
 		ram_block1a_5.connectivity_checking = "OFF",
-		ram_block1a_5.init_file = "uP_Programa.hex",
+		ram_block1a_5.init_file = "Dados.hex",
 		ram_block1a_5.init_file_layout = "port_a",
 		ram_block1a_5.logical_ram_name = "ALTSYNCRAM",
-		ram_block1a_5.mem_init0 = 16'h103A,
+		ram_block1a_5.mem_init0 = 16'h0009,
 		ram_block1a_5.operation_mode = "rom",
 		ram_block1a_5.port_a_address_clear = "none",
 		ram_block1a_5.port_a_address_width = 4,
@@ -459,10 +459,10 @@ module  MemoriaROM_altsyncram
 		ram_block1a_6.clk0_core_clock_enable = "none",
 		ram_block1a_6.clk0_input_clock_enable = "none",
 		ram_block1a_6.connectivity_checking = "OFF",
-		ram_block1a_6.init_file = "uP_Programa.hex",
+		ram_block1a_6.init_file = "Dados.hex",
 		ram_block1a_6.init_file_layout = "port_a",
 		ram_block1a_6.logical_ram_name = "ALTSYNCRAM",
-		ram_block1a_6.mem_init0 = 16'h0030,
+		ram_block1a_6.mem_init0 = 16'h000A,
 		ram_block1a_6.operation_mode = "rom",
 		ram_block1a_6.port_a_address_clear = "none",
 		ram_block1a_6.port_a_address_width = 4,
@@ -517,10 +517,10 @@ module  MemoriaROM_altsyncram
 		ram_block1a_7.clk0_core_clock_enable = "none",
 		ram_block1a_7.clk0_input_clock_enable = "none",
 		ram_block1a_7.connectivity_checking = "OFF",
-		ram_block1a_7.init_file = "uP_Programa.hex",
+		ram_block1a_7.init_file = "Dados.hex",
 		ram_block1a_7.init_file_layout = "port_a",
 		ram_block1a_7.logical_ram_name = "ALTSYNCRAM",
-		ram_block1a_7.mem_init0 = 16'h0030,
+		ram_block1a_7.mem_init0 = 16'h0007,
 		ram_block1a_7.operation_mode = "rom",
 		ram_block1a_7.port_a_address_clear = "none",
 		ram_block1a_7.port_a_address_width = 4,
@@ -590,7 +590,7 @@ endmodule
 // Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "0"
 // Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 // Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
-// Retrieval info: PRIVATE: MIFfilename STRING "uP_Programa.hex"
+// Retrieval info: PRIVATE: MIFfilename STRING "Dados.hex"
 // Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "16"
 // Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 // Retrieval info: PRIVATE: RegAddr NUMERIC "1"
@@ -605,7 +605,7 @@ endmodule
 // Retrieval info: CONSTANT: ADDRESS_ACLR_A STRING "NONE"
 // Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "BYPASS"
 // Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
-// Retrieval info: CONSTANT: INIT_FILE STRING "uP_Programa.hex"
+// Retrieval info: CONSTANT: INIT_FILE STRING "Dados.hex"
 // Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone IV E"
 // Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=NO"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
@@ -625,7 +625,7 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.cmp FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.bsf TRUE FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.bsf TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM_inst.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM_bb.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM_syn.v TRUE

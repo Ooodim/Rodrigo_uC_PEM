@@ -84,9 +84,9 @@ module MemoriaROM (
 		altsyncram_component.clock_enable_input_a = "BYPASS",
 		altsyncram_component.clock_enable_output_a = "BYPASS",
 `ifdef NO_PLI
-		altsyncram_component.init_file = "uP_Programa.rif"
+		altsyncram_component.init_file = "Dados.rif"
 `else
-		altsyncram_component.init_file = "uP_Programa.hex"
+		altsyncram_component.init_file = "Dados.hex"
 `endif
 ,
 		altsyncram_component.intended_device_family = "Cyclone IV E",
@@ -123,7 +123,7 @@ endmodule
 // Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "0"
 // Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 // Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
-// Retrieval info: PRIVATE: MIFfilename STRING "uP_Programa.hex"
+// Retrieval info: PRIVATE: MIFfilename STRING "Dados.hex"
 // Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "16"
 // Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 // Retrieval info: PRIVATE: RegAddr NUMERIC "1"
@@ -138,7 +138,7 @@ endmodule
 // Retrieval info: CONSTANT: ADDRESS_ACLR_A STRING "NONE"
 // Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "BYPASS"
 // Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
-// Retrieval info: CONSTANT: INIT_FILE STRING "uP_Programa.hex"
+// Retrieval info: CONSTANT: INIT_FILE STRING "Dados.hex"
 // Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone IV E"
 // Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=NO"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
@@ -158,7 +158,7 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.cmp FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.bsf TRUE FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM.bsf TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM_inst.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM_bb.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaROM_syn.v TRUE
